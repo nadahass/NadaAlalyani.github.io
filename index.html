@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!-- This is your tab name, edit to what you prefer. -->
+    <title>Nada Alalyani</title>
+  </head>
+  
+<!--  It is important to note any extra sections may be deleted if prefered. Be sure to test your code if you do so.  -->
+<!-- IMPORTANT: Don't forget to include the JS code in this template's directory. -->
+  
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        
+        <!-- replace the href link to a site of your own and update the 'RS.' to your initials -->
+        <a href="https://rajshekhar26.github.io/cleanfolio-minimal" class="link"
+          ></a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            
+            <!-- This is your nav bar. Update with disired tab names (between the >...< tags). -->
+            <a class="link link--nav" href="#projects">Research</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#pub">Publications</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      
+<!-- ABOUT SECTION -->
+      <div class="about center">
+        
+        <!--  Replace Raj Shekhar with your name.  -->
+        <h1>Welcome, I am <span class="about__name">Nada Alalyani.</span></h1>
+        
+        <!--  Replace 'A Front end Developer' with your title.  -->
+        <h2 class="about__role">A Ph.D Student at Colorado State University</h2>
+        
+        <!--  Replace this paragraph with your bio/about information.  -->
+        <p class="about__desc">
+          I am working to leverage my professional experience on moving NLP systems closer to 
+          genuine “understanding” of grounded language involving embodied form of human computer interaction.  
+        </p>
+
+        <div class="about__contact center">
+          
+          <!-- This is the link to your resme. Update the href to your resume, or delete the a tag content. -->
+          <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <!--  replace the href link with the link to your GitHub profile  -->
+          <a
+            href="https://github.com/rajshekhar26"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <!--  replace the href link with the link to your LinkedIn profile  -->
+          <a
+            href="https://linkedin.com/in/rajshekhar26"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+<!--  END ABOUT SECTION  -->
+
+<!-- PROJECTS SECTION -->
+<!--  This section is for your projects, update the filler information with your PROJECTS.  -->
+<!--  Delete any extra a sections as necessary.  -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Research</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Intelligent Feature Selection and classification Methods for Arabic Documents</h3>
+            <p class="project__description">
+              Development of a bio-inspired algorithm called Firefly for Feature Selection process 
+              and combine it with SVM to build an effecient Arabic Text Categorizer system.
+              Three available dataset are annotated and combined to train the model.
+            </p>
+           <!--
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>-->
+          </div>
+
+          <div class="project">
+            <h3>Development of General, Educational, and Research Websites</h3>
+            <p class="project__description">
+              Development of the followings: <br/>
+                Predatory Scientific Publications website <br/>
+                Preschool Learning Managment System <br/>
+                Summer Training Management System <br/>
+                General Relations Management System <br/>
+            </p>
+
+            <!--<a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+
+          <div class="project">
+            <h3> Multimodal Communication with Computer for Language Understanding </h3>
+            <p class="project__description">
+              To increase "deep understanding" for both agents and the humans,
+               we are conducting experiments on multimodal referring expressions REs:
+              • Google Speech Recognition assessment
+              • Understanding how humans use multimodal REs when interacting with avatars
+              • Training intelligent models to Capture attributive descriptors, relational descriptors and historical actions
+            </p>
+
+            <!-- <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a> -->
+          </div>
+        </div>
+
+        
+      </section>
+<!-- END PROJECTS SECTION -->
+
+<!-- SKILLS SECTION -->
+<!--  This section is for your skills, update the filler information with your SKILLS.  -->
+<!--  Delete any extra li sections as necessary.  -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Programming Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">JAVA</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">XML</li>
+        </ul>
+      </section>
+<!-- END SKILLS SECTION -->
+   <!-- PUBLICATIONS SECTION -->
+<!--  This section is for your skills, update the filler information with your SKILLS.  -->
+<!--  Delete any extra li sections as necessary.  -->
+<section class="section pub" id="pub">
+  <h2 class="section__title">Publications</h2>
+  <div style="text-align:left;" class="project">
+  <ul>
+    <li> </li>
+    <li style="font-size: large; font-weight:bold;"> (2018) </li>
+    <li >-- Larabi, S. & Alalyani, N. “Firefly Algorithm Based Feature Selection for Arabic Text Classification,” Journal of King Saud University (JKSU) – Computer and Information Sciences, 2018. https://doi.org/10.1016/j.jksuci.2018.06.004</li>
+    <li>  <li>
+    <li>-- Nada Alalyani and Souad Larabi Marie-Sainte, “NADA: New Arabic Dataset for Text Classification” International Journal of Advanced Computer Science and Applications (IJACSA), 9(9), 2018. http://dx.doi.org/10.14569/IJACSA.2018.090928.</li>
+    <li>  </li>
+    <li>-- Nada Alalyani, S., & Larabi, N. “NADA: A New Arabic Dataset.” doi: 10.13140/EF.2.2.13606.01603# and https://www.researchgate.net/publication/326060650_NADA_A_New_Arabic_Dataset</li>
+    <li>  </li>
+    <li style="font-size: large; font-weight:bold;"> (2019)</li>
+    <li>-- S. Larabi Marie-Sainte, N. Alalyani, S. Alotaibi, S. Ghouzali and I. Abunadi, "Arabic Natural Language Processing and Machine Learning-Based Systems," in IEEE Access, vol. 7, pp. 7011-7020, 2019. URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8594541&isnumber=86007 01.</li>
+    <li>  </li>
+    <li style="font-size: large; font-weight:bold;"> (2021)</li>
+    <li>-- Krishnaswamy, Nikhil, and Nada Alalyani. "Embodied Multimodal Agents to Bridge the Understanding Gap." Proceedings of the First Workshop on Bridging Human–Computer Interaction and Natural Language Processing. 2021. https://aclanthology.org/2021.hcinlp- 1.7.pdf</li>
+    <li>  </li>
+
+  </ul>
+</div>
+</section>   
+<!-- CONTACT SECION -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>       
+        <a href="ns_2891436@outlook.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+<!-- END CONTACT SECTION -->
+      
+    </main>
+<!-- END MAIN CONTENT -->
+
+<!-- FOOTER -->
+    <!--  This section is a footer. Update 'Created by ...' (between the >...< tags).  -->
+    <!--  replace the href link to your own gitHub or other site  -->
+    <!--  You can also delete the footer if prefered. (Be sure to test your code changes)  -->
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Nada Alalyani
+      </a>
+    </footer>
+<!-- END FOOTER -->
+
+    <!--  This div is for an error to appear if you scroll down, to take you back to the top of the page.  -->
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
